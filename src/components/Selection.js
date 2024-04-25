@@ -14,7 +14,7 @@ const Selection = (props) => {
     })
     
     return (
-        <div className='fix-box' style={{ backgroundColor: bgColor.background }} onClick={() => applyColor(updateSelectionStyle)}>
+        <div className={'fix-box'} style={{ backgroundColor: bgColor.background }} onClick={() => applyColor(updateSelectionStyle)} data-text>
             <h1>Selection</h1>
         </div>
     )
